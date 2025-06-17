@@ -9,17 +9,17 @@
 <body>
 
   <!-- Altersabfrage -->
-  <div id="ageCheck" class="popup">
+  <section id="ageCheck" class="popup">
     <div class="popup-content">
       <h2>🔞 Are you 18 or older?</h2>
       <button id="yesButton">Yes</button>
       <button id="noButton">No</button>
     </div>
-  </div>
+  </section>
 
   <!-- Sidebar -->
-  <div id="sidebar" class="sidebar">
-    <div class="sidebar-content">
+  <aside id="sidebar" class="sidebar">
+    <section class="sidebar-content">
       <h2>Filter</h2>
       <div class="filter-group">
         <label for="alcoholFilter">Alcohol Content:</label>
@@ -28,10 +28,8 @@
           <option value="Alcoholic">Alcoholic</option>
           <option value="Non alcoholic">Non-Alcoholic</option>
           <option value="All">All</option>
-
         </select>
       </div>
-
       <div class="filter-group">
         <label for="categoryFilter">Category:</label>
         <select id="categoryFilter">
@@ -44,7 +42,6 @@
           <option value="All">All</option>
         </select>
       </div>
-
       <div class="filter-group">
         <label for="glassFilter">Glass Type:</label>
         <select id="glassFilter">
@@ -58,10 +55,9 @@
           <option value="All">All</option>
         </select>
       </div>
-
       <button id="applyFilters">Apply Filter</button>
-    </div>
-  </div>
+    </section>
+  </aside>
 
   <!-- Header -->
   <header class="main-header">
@@ -72,28 +68,28 @@
   </header>
 
   <!-- Loading Screen -->
-  <div id="loadingScreen" class="loading-screen">
+  <section id="loadingScreen" class="loading-screen">
     <div class="loading-content">
       <div class="loading-spinner"></div>
       <p class="loading-text">Loading our cocktail collection...</p>
     </div>
-  </div>
+  </section>
 
   <!-- Custom Alert -->
-  <div id="customAlert" class="custom-alert">
+  <section id="customAlert" class="custom-alert">
     <div class="alert-content">
       <span class="alert-message"></span>
       <button class="alert-close">×</button>
     </div>
-  </div>
+  </section>
 
   <!-- Hauptbereich -->
-  <div class="overlay">
+  <main class="overlay">
 
     <!-- Linke Seite -->
-    <div class="left-section">
+    <section class="left-section">
       <img src="../material/pink1.jpg" alt="Hintergrundbild" class="background-img" />
-      <div class="container">
+      <article class="container">
         <h1>Every cocktail has a story – find yours.</h1>
         <p class="subtitle">Search by name or ingredient.</p>
 
@@ -111,14 +107,14 @@
           <p class="or-text"><strong>Suprise Me!</strong></p>
           <button id="randomButton">Random Cocktail</button>
         </section>
-      </div>
-    </div>
+      </article>
+    </section>
 
     <!-- Rechte Seite -->
-    <div class="right-section">
+    <section class="right-section">
       <img src="../material/pink.jpg" alt="Cocktailglas" />
-    </div>
-  </div>
+    </section>
+  </main>
 
   <!-- Ergebnisse -->
   <section id="resultsSection">
